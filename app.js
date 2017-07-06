@@ -5,7 +5,7 @@ var port = process.env.PORT || 3000;
 var org = nforce.createConnection({
   clientId: '3MVG9ZL0ppGP5UrAPaltFCJll.f7P9fxAKvg7krqaIZP8tjcbSg3a9s_KE7.Ee4GVVtRuFbFxFn8SxfTsnCFB',
   clientSecret: '4639332858223497593',
-  redirectUri: 'https://lightninfout12w3.herokuapp.com/oauth/_callback',
+  redirectUri: 'https://lightninfout12w3.herokuapp.com',
   apiVersion: '1.0',  // optional, defaults to current salesforce API version
   mode: 'multi' // optional, 'single' or 'multi' user mode, multi default
 });
